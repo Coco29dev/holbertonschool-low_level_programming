@@ -7,12 +7,9 @@
 
 int main(void)
 {
-int x;
-for (x = 0 ; x < 10 ; x++)
-putchar(x + '0');
-if (x < 9)
-putchar (',');
-putchar (' ');
-putchar ('\n');
+int i;
+for (i = 0; i < 10; i++)
+putchar(i + '0');
+putchar('\n');
 return (0);
 }
