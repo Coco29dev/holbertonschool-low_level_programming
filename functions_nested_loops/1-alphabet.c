@@ -2,19 +2,15 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet - so cool
  */
-int main(void)
+
+void print_alphabet(void)
 {
-char alphabet;
-for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
+int alphabet;
 {
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 _putchar(alphabet);
 }
-
-putchar('\n');
-
-return (0);
+_putchar('\n');
 }
