@@ -16,7 +16,12 @@ for (heure = 0; heure < 24; heure++)
 {
 for (minute = 0; minute < 60; minute++)
 {
-_putchar("%02d:%02d\n", heure, minute);
+_putchar(heure / 10 + '0');
+_putchar(heure % 10 + '0');
+_putchar(':');
+_putchar(minute / 10 + '0');
+_putchar(minute % 10 + '0');
+_putchar('\n');
 }
 }
 }
