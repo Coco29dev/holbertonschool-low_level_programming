@@ -16,7 +16,7 @@ for (heure = 0; heure < 24; heure++)
 {
 for (minute = 0; minute < 60; minute++)
 {
-printf("%02d:%02d\n", heure, minute);
+_putchar("%02d:%02d\n", heure, minute);
 }
 }
 }
