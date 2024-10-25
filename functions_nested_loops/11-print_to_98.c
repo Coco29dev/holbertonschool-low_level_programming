@@ -12,7 +12,15 @@ if (n < 98)
 {
 for (; n < 98; n++)
 {
-print_number(n);
+if (n < 10)
+{
+_putchar(n + '0');
+}
+else
+{
+_putchar((n / 10) + '0');
+_putchar((n % 10) + '0');
+}
 if (n != 97)
 {
 _putchar(',');
@@ -24,15 +32,4 @@ else if (n > 98)
 {
 for (; n > 98; n--)
 {
-print_number(n);
-if (n != 99)
-{
-_putchar(',');
-_putchar(' ');
-}
-}
-}
-print_number(98);
-_putchar('\n');
-}
-
+if (n < 10)
