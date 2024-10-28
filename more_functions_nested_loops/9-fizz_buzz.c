@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point of the program.
- * 
+ *
  * Return: Always 0.
  */
 
@@ -20,7 +20,7 @@ else if (a % 3 == 0)
 {
 printf("Fizz");
 }
-else if ( a % 5 == 0)
+else if (a % 5 == 0)
 {
 printf("Buzz");
 }
