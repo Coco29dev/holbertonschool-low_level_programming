@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
+
 /**
- * _putchar - Writes a character to stdout.
- * @c: The character to print.
+ * print_most_numbers - Prints the numbers from 0 to 9, excluding 2 and 4.
  *
- * Return: On success 1, otherwise -1.
+ * Return: Nothing.
  */
 
 void print_most_numbers(void)
