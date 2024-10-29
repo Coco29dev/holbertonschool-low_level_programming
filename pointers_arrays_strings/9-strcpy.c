@@ -9,11 +9,12 @@
  * Description: This function takes two pointers, one to the source
  * string and one to the destination buffer. It copies the string from
  * the source to the destination, including the null terminator. The
+ * Return: A pointer to the destination string.
  * function returns a pointer to the destination string.
  */
 
 char *_strcpy(char *dest, char *src)
- {
+{
 char *start = dest;
 while (*src != '\0')
 {
