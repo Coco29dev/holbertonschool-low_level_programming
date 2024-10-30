@@ -8,6 +8,7 @@
  *
  * Description: Cette fonction prend la chaibe src et l'ajoute
  *a la fin de la chaine dest
+ * Return: Pointeur apres concatenation
  */
 
 char *_strcat(char *dest, char *src)
@@ -20,7 +21,7 @@ char *original_dest = dest;
 	while (*src != '\0')
 {
 	*dest = *src;
-	dest ++;
+	dest++;
 	src++;
 }
 	*dest = '\0';
