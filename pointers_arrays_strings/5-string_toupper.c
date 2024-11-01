@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * string_toupper - Convertit toutes les lettres minuscules d'une string en majuscules.
+ * string_toupper - Convertit toutes
+ * les lettres minuscules d'une string en majuscules.
  * @str: Pointeur vers la string a modifier.
  *
  * Return: Pointeur vers la string modifie.
