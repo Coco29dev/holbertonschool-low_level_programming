@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * cap_string - Met en majuscule la premiere lettre de chaque mot dans une string
+ * cap_string - Met en majuscule
+ * la premiere lettre de chaque mot dans une string
  * @str: Pointeur vers la string a modifier
  *
  * Return: Pointeur vers la string modifie
