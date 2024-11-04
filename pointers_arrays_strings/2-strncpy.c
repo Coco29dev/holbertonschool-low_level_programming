@@ -7,7 +7,7 @@
  * @src: Pointeur vers la string source.
  * @n: Nombre de caracteres a copier.
  *
- * Return: Pointeur vers la chaîne de destination.
+ * Return: Pointeur vers la chaine de destination.
  */
 
 char *_strncpy(char *dest, char *src, int n)
