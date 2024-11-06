@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- * int main - print name programme
- * @argv:
- * @argc:
+/**
+ * main - print name programme
+ * @argv: j
+ * @argc: h
  * Return: 0
  */
 
