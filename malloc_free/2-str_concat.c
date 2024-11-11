@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <string.h>
 #include "main.h"
 /**
  * str_concat - Concatenate two strings and return a pointer to the new string.
