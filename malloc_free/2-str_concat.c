@@ -11,24 +11,19 @@
 char *str_concat(char *s1, char *s2)
 {
 char *cp_str;
-int len1, len2, a;
+int i, cp_i = 0, len = 0;
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
-len1 = strlen(s1);
-len2 = strlen(s2);
-cp_str = malloc(len1 + len2 + 1);
+for (i = 0; s1[i] || s2[i]; i++)
+len++;
+cp_str = malloc(sizeof(char) * len);
 if (cp_str == NULL)
 return (NULL);
-for (a = 0; a < len1; a++)
-{
-cp_str[a] = s1[a];
-}
-for (a = 0; a < len2; a++)
-{
-cp_str[len1 + a] = s2[a];
-}
-cp_str[len1 + len2] = '\0';
+for (i = 0; s1[i]; i++)
+cp_str[cp_i++] = s1[i];
+for (i = 0; s2[i]; i++)
+cp_str[cp_i++] = s2[i];
 return (cp_str);
 }
