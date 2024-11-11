@@ -3,6 +3,15 @@
 #include <string.h>
 #include "main.h"
 
+/**
+ * _strdup - returns a pointer to a newly allocated space in memory,
+ * which contains a copy of the string given as a parameter.
+ * @str: The string to be duplicated.
+ * Return: A pointer to the newly allocated memory that contains the
+ * duplicate of the string. If str is NULL, return NULL. If
+ * memory allocation fails, return NULL.
+ */
+
 char *_strdup(char *str)
 {
 int i;
