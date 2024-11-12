@@ -5,7 +5,8 @@
  * array_range - Creates an array of integers from min to max, inclusive.
  * @min: The minimum value in the array.
  * @max: The maximum value in the array.
- * Return: A pointer to the newly created array, or NULL if min > max or malloc fails.
+ * Return: A pointer to the newly created array,
+ *  or NULL if min > max or malloc fails.
  */
 
 int *array_range(int min, int max)
