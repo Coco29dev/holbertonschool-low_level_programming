@@ -18,9 +18,7 @@ i_size = max - min + 1;
 array = malloc(sizeof(int) * i_size);
 if (array == NULL)
 return (NULL);
-for (i = 0; i < min; i++)
-array[i] = array[0];
-for (i = 0; i < max; i++)
-array[i] = array[1];
+for (i = 0; i < i_size; i++)
+array[i] =  min + 1;
 return (array);
 }
