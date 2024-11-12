@@ -18,9 +18,10 @@ n = len2;
 cp_str = malloc(sizeof(char) * (len1 + n + 1));
 if (cp_str == NULL)
 return (NULL);
-for (i = 0; s1[i]; i++)
+for (i = 0; i < len1; i++)
 cp_str[cp_i++] = s1[i];
-for (i = 0; s2[i]; i++)
+for (i = 0; i < n; i++)
 cp_str[cp_i++] = s2[i];
+cp_str[cp_i] = '\0';
 return (cp_str);
 }
