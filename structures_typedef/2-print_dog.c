@@ -14,5 +14,5 @@ printf("Age : %.1f\n", d->age);
 if (d->owner == NULL)
 printf("Owner : (nil)\n");
 else
-printf("Owner : (nil)\n", d->owner);
+printf("Owner : %s\n", d->owner );
 }
