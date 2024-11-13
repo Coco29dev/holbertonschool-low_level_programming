@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "dog.h"
 #include <string.h>
-
 /**
  * new_dog - Creates a new dog.
  * @name: The name of the dog.
@@ -16,7 +15,6 @@
  * and owner strings is stored, and handles memory allocation errors by
  * returning NULL and freeing any allocated memory.
  */
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *new_dog = malloc(sizeof(dog_t));
