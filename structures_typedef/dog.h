@@ -1,6 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 
+#include <unistd.h>
 #include <stdio.h>
 
 /**
