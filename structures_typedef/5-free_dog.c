@@ -13,11 +13,11 @@
  * allocated memory for the dog is properly
  * deallocated to prevent memory leaks.
  */
-
 void free_dog(dog_t *d)
 {
 if (d->name != NULL)
 free(d->name);
 if (d->owner != NULL)
 free(d->owner);
+free(d);
 }
