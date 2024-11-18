@@ -15,7 +15,7 @@ return (a + b);
  * @b: The second integer
  * Return: The difference of a and b
  */
-int op_sub (int a, int b)
+int op_sub(int a, int b)
 {
 return (a - b);
 }
@@ -61,3 +61,4 @@ exit(100);
 }
 return (a % b);
 }
+
