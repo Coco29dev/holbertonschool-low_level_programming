@@ -16,7 +16,7 @@ if (separator == NULL)
 {
 printf("(nil)");
 }
-printf("%d", va_arg(args, unsigned int));
+printf("%s", va_arg(args, char*));
 }
 printf("\n");
 va_end(args);
