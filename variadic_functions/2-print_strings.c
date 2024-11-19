@@ -20,13 +20,13 @@ unsigned int i;
 va_start(args, n);
 for (i = 0; i < n; i++)
 {
-if (separator != NULL && i > 0)
-{
-printf("%s", separator);
-}
 if (separator == NULL)
 {
 printf("(nil)");
+}
+if (separator != NULL && i > 0)
+{
+printf("%s", separator);
 }
 printf("%s", va_arg(args, char*));
 }
