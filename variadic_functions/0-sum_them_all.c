@@ -1,13 +1,18 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 
+
 /**
  * sum_them_all - Calculates the sum of all integers passed as arguments.
  * @n: The number of arguments to sum.
  *
- * Returns the sum of the integers passed as arguments. If no arguments
- * are passed, it returns 0.
+ * Returns the sum of all the arguments passed. If no arguments are passed,
+ * it returns 0.
+ *
+ * Return: The sum of all the arguments passed to the function, or 0 if no
+ * arguments are provided.
  */
+
 
 int sum_them_all(const unsigned int n, ...)
 {
