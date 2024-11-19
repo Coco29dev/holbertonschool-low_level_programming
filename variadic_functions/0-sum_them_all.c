@@ -19,7 +19,7 @@ return (0);
 va_start(args, n);
 for (i = 0; i < n; i++)
 {
-total += va_arg(args,unsigned int);
+total += va_arg(args, unsigned int);
 }
 va_end(args);
 return (total);
