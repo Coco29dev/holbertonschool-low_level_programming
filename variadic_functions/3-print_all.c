@@ -53,7 +53,6 @@ if (s == NULL)
 {
 printf("(nil)");
 }
-if (s != NULL)
 {
 printf("%s", s);
 }
