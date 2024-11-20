@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "variadic_functions.h"
-
 /**
  * print_all - Prints anything based on the format string.
  * @format: A string representing the types of arguments passed to the function.
@@ -12,7 +9,6 @@
  * It uses variadic arguments and function pointers to handle each type.
  * A new line is printed at the end.
  */
-
 void print_char(va_list args)
 {
 char c;
