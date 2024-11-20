@@ -2,6 +2,17 @@
 #include <stdlib.h>
 #include "variadic_functions.h"
 
+/**
+ * print_all - Prints anything based on the format string.
+ * @format: A string representing the types of arguments passed to the function.
+ * 'c' for char, 'i' for integer, 'f' for float, 's' for string.
+ * Description: This function prints all the values provided as arguments,
+ * depending on the format specified. If the string argument is NULL,
+ * "(nil)" will be printed.
+ * It uses variadic arguments and function pointers to handle each type.
+ * A new line is printed at the end.
+ */
+
 void print_char(va_list args)
 {
 char c;
