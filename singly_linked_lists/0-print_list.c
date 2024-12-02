@@ -25,7 +25,7 @@ else
 {
 printf("[%d] %s\n", current->len, current->str);
 }
-current =  current->next;
+current = current->next;
 count++;
 }
 return (count);
