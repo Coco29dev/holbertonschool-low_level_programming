@@ -13,7 +13,7 @@ size_t count = 0;
 const list_t *current = h;
 if (current == NULL)
 {
-return (count);
+return (-1);
 }
 while (current != NULL)
 {
