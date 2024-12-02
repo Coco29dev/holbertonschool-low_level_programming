@@ -3,18 +3,24 @@
 
 size_t print_list(const list_t *h)
 {
-int count = 0;
+size_t count = 0;
 const list_t *current = h;
+if (current == NULL)
+{
+return (count);
+}
 while (current != NULL)
 {
+if (current->str == NULL)
+{
+printf("[0] (nil)\n");
+}
+else
+{
+printf("[%d] %s\n", current->len, current->str);
+}
 current =  current->next;
 count++;
-if (str == NULL)
-{
-printf("[0] (nil)");
-if (str != NULL)
-{
-printf("[len]", str);
 }
 return (count);
 }
