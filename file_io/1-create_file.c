@@ -22,9 +22,8 @@ if (text_content == NULL)
 close(fd);
 return (1);
 }
-while (*text_content)
+while (text_content[count])
 {
-text_content++;
 count++;
 }
 error_flag = write(fd, text_content, count);
