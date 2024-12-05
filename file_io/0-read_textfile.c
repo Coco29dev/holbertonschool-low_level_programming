@@ -16,7 +16,7 @@ ssize_t bytes_read;
 if (filename == NULL)
 return (0);
 fd = open(filename, O_RDONLY);
-buffer = malloc(sizeof(char *)* letters);
+buffer = malloc(sizeof(char *) * letters);
 if (buffer == NULL)
 return (0);
 if (fd == -1)
